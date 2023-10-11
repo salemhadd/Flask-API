@@ -22,7 +22,7 @@ pipeline {
     }
     triggers {
         // Déclencher le pipeline lorsqu'un push est détecté dans Git
-        cron('*/2 * * * *') // Vérification toutes les 5 minutes
+        cron('*/1 * * * *') // Vérification toutes les 5 minutes
     }
 
 }
