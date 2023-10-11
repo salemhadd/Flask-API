@@ -14,7 +14,7 @@ pipeline {
                 // Afficher la date système
                 script {
                     def date = new Date()
-                    echo "Date système : ${date}"
+                    echo "Date systeme : ${date}"
                 }
             }
         }
