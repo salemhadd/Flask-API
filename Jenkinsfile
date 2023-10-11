@@ -4,10 +4,9 @@ pipeline {
 
         stage('Récupération du code source') {
             steps {
-                echo 'Pulling';
                 git branch: 'master',
-                url : 'https://github.com/mhassini/avec-maven.git';
-                git 'https://github.com/votre-utilisateur/votre-depot.git'
+                url : 'https://github.com/salemhadd/Flask-API.git';
+               /* git 'https://github.com/votre-utilisateur/votre-depot.git' */
             }
         }
     stage('Affichage de la date système') {
