@@ -14,7 +14,7 @@ pipeline {
                 // Afficher la date système
                 script {
                     def date = new Date()
-                    echo "Date systeme : ${date}"
+                    echo "Date systeme est : ${date}"
                 }
             }
         }
@@ -22,7 +22,7 @@ pipeline {
     }
     triggers {
         // Déclencher le pipeline lorsqu'un push est détecté dans Git
-        cron('*/5 * * * *') // Vérification toutes les 5 minutes
+        cron('*/2 * * * *') // Vérification toutes les 5 minutes
     }
 
 }
