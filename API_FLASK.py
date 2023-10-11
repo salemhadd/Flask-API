@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+#http://127.0.0.1:5000/get-user/123extra=%22Test%22
 
 @app.route("/get-user/<user_id>")
 def get_user(user_id):
