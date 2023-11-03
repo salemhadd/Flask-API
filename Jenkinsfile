@@ -6,7 +6,6 @@ pipeline {
             steps {
                 git branch: 'master',
                 url : 'https://github.com/salemhadd/Flask-API.git';
-               /* git 'https://github.com/votre-utilisateur/votre-depot.git' */
             }
         }
     stage('Affichage de la date système') {
